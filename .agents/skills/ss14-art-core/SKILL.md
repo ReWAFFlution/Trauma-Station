@@ -27,9 +27,9 @@ This is the root skill for SS14-ART-CORE. Use it first, then load narrower SS14 
 - Wrap every change outside `_Art` in a narrow marker block:
 
 ```csharp
-// ss14-art-edit start: reason
+// Art-Start: reason
 CODE
-// ss14-art-edit end
+// Art-End
 ```
 
 - Keep mechanics modular and data-driven.

@@ -36,11 +36,11 @@ reviews:
     - path: "**/*.cs"
       instructions: |
         Check SS14 ECS style: data-only components, behavior in systems, Entity<T?> APIs with Resolve, On/Try/Can/Do method flow, no magic IDs, no duplicate mechanics.
-        Any non-_Art file change must include a narrow ss14-art-edit marker block.
+        Any non-_Art file change must include a narrow Art-Edit marker block.
     - path: "**/*.yml"
       instructions: |
         Check SS14 YAML ordering and indentation. Prototype IDs should be namespaced for SS14-ART-CORE where fork-owned.
-        Any non-_Art file change must include native ss14-art-edit marker comments.
+        Any non-_Art file change must include native Art-Edit marker comments.
     - path: "**/*.ftl"
       instructions: |
         Check kebab-case localization IDs, subsystem scoping, no duplicate generic IDs, and Fluent variables/functions instead of concatenated grammar.

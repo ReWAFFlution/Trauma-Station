@@ -4,6 +4,6 @@ instructions = """
 Load shine-project and relevant SS14 skills.
 Do not edit RobustToolbox.
 Write new Shine code under _sh.
-Mark non-_sh edits with shine-edit blocks.
+Mark non-_Art edits with Art-Edit/Art-Start/Art-End blocks.
 Run focused validation when possible.
 """

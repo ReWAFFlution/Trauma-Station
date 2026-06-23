@@ -2,7 +2,7 @@ $replacements = @(
     @{ Pattern = "Shine Project"; Replacement = "SS14-ART-CORE" },
     @{ Pattern = "Shine project"; Replacement = "SS14-ART-CORE" },
     @{ Pattern = "shine-project"; Replacement = "ss14-art-core" },
-    @{ Pattern = "shine-edit"; Replacement = "ss14-art-edit" },
+    @{ Pattern = "shine-edit"; Replacement = "Art-Edit" },
     @{ Pattern = "shine-hard-guardrails\.md"; Replacement = "ss14-art-hard-guardrails.md" },
     @{ Pattern = "shine-upstream-edit-markers\.md"; Replacement = "ss14-art-upstream-edit-markers.md" },
     @{ Pattern = "shine-review-bot-guidelines\.md"; Replacement = "ss14-art-review-bot-guidelines.md" },

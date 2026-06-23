@@ -9,33 +9,33 @@ Any modification to a file outside a `_Art` path segment must be surrounded by S
 For multi-line changes:
 
 ```csharp
-// ss14-art-edit start: short reason
+// Art-Start: short reason
 CODE
-// ss14-art-edit end
+// Art-End
 ```
 
 For single-line changes:
 
 ```csharp
-CODE // ss14-art-edit: reason
+CODE // Art-Edit: reason
 ```
 
 Use the same marker shape for comments in C#, YAML, FTL, XAML, TOML, JSON-with-comments, and Markdown when practical. For formats where `//` is invalid, use the native comment delimiter:
 
 ```yaml
-# ss14-art-edit start: short reason
+# Art-Start: short reason
 code: here
-# ss14-art-edit end
+# Art-End
 
 single_line: here # ss14-art-edit
 ```
 
 ```xml
-<!-- ss14-art-edit start: short reason -->
+<!-- Art-Start: short reason -->
 <Control />
-<!-- ss14-art-edit end -->
+<!-- Art-End -->
 
-<Control Property="Value" /> <!-- ss14-art-edit -->
+<Control Property="Value" /> <!-- Art-Edit -->
 ```
 
 ## Scope

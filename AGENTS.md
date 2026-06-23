@@ -12,7 +12,7 @@ Hard rules:
 
 - Never edit `RobustToolbox/**`.
 - New SS14-ART-CORE code goes under `_Art`.
-- Any file changed outside `_Art` needs a tight `ss14-art-edit` marker block.
+- Any file changed outside `_Art` needs a tight Art-Edit marker block.
 - Prefer prediction, localization, data-driven prototypes, modular ECS systems, and .NET 10-current code.
 - Do not duplicate mechanics or hardcode one-off behavior.
 
