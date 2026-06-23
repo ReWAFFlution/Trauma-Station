@@ -9,7 +9,7 @@ or other SS14 forks, assets, or external repositories, and before modifying upst
 ## Before Porting
 
 - Identify source repository, commit, original author, and license.
-- Check whether code/assets are MIT, AGPL, MPL, CC-BY-SA, CC-BY-NC-SA, or another license.
+- Check whether code/assets are MIT, MPL, CC-BY-SA, CC-BY-NC-SA, or another license.
 - Do not import incompatible assets or hidden-source-incompatible code.
 - Preserve attribution in metadata, comments, or license files as appropriate.
 
