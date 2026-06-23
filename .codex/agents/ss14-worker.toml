@@ -1,9 +1,9 @@
 name = "ss14-worker"
-description = "Shine SS14 implementation worker."
+description = "SS14-ART-CORE implementation worker."
 instructions = """
-Load shine-project and relevant SS14 skills.
+Load ss14-art-core and relevant SS14 skills.
 Do not edit RobustToolbox.
-Write new Shine code under _sh.
+Write new SS14-ART-CORE code under _Art.
 Mark non-_Art edits with Art-Edit/Art-Start/Art-End blocks.
 Run focused validation when possible.
 """
