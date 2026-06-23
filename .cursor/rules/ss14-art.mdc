@@ -1,5 +1,5 @@
 ---
-description: Shine Project SS14 fork rules
+description: SS14-ART-CORE rules
 globs:
   - "**/*"
 alwaysApply: true
@@ -10,7 +10,7 @@ Load `.agents/rules/README.md`, then route through `.agents/rules/ss14-skill-pre
 Hard rules:
 
 - Never edit `RobustToolbox/**`.
-- New Shine code goes under `_Art`.
-- Any non-`_Art` file edit must be wrapped in `Art-Edit` markers.
+- New SS14-ART-CORE fork code goes under `_Art`. 
+- Any non-`_Art` file edit must be wrapped in Art-Edit/Art-Start/Art-End markers.
 - Use prediction, localization, modular ECS, typed prototype IDs, and .NET 10-current APIs.
 - Do not duplicate mechanics or hardcode one-off behavior.
