@@ -1,6 +1,6 @@
 ---
 name: ss14-upstream-maintenance
-description: Upstream/fork maintenance guidance for SS14-ART-CORE. Use when touching non-_Art files, reviewing upstream diffs, preserving path similarity, porting fork code, marking ss14-art-edit blocks, or deciding whether an engine/content change is allowed.
+description: Upstream/fork maintenance guidance for SS14-ART-CORE. Use when touching non-_Art files, reviewing upstream diffs, preserving path similarity, porting fork code, marking Art-Edit blocks, or deciding whether an engine/content change is allowed.
 ---
 
 # SS14 Upstream Maintenance

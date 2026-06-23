@@ -27,7 +27,7 @@ Use the same marker shape for comments in C#, YAML, FTL, XAML, TOML, JSON-with-c
 code: here
 # Art-End
 
-single_line: here # ss14-art-edit
+single_line: here # Art-Edit
 ```
 
 ```xml
