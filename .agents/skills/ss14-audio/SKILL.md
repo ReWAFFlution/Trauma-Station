@@ -1,6 +1,6 @@
 ---
 name: ss14-audio
-description: Audio guidance for SS14 {FORK_NAME} work, including SoundSpecifier, sound collections, predicted audio, MIDI/soundfonts, resource placement, localization-adjacent feedback, and avoiding duplicated or hardcoded sound playback.
+description: Audio guidance for SS14 SS14-ART-CORE work, including SoundSpecifier, sound collections, predicted audio, MIDI/soundfonts, resource placement, localization-adjacent feedback, and avoiding duplicated or hardcoded sound playback.
 ---
 
 # SS14 Audio
