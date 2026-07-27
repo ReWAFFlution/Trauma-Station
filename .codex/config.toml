@@ -1,0 +1,17 @@
+# SS14-Art Project Codex bridge.
+# Canonical instructions live in .agents/rules and .agents/skills.
+
+[project]
+name = "ss14-art"
+default_skill = "ss14-art"
+
+[instructions]
+root = ".agents"
+rules = ".agents/rules"
+skills = ".agents/skills"
+
+[guardrails]
+forbid_paths = ["RobustToolbox/**"]
+fork_path_segment = "_Art"
+upstream_marker_start = "Art-Start"
+upstream_marker_end = "Art-End"

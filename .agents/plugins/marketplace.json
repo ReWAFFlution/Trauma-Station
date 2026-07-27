@@ -1,0 +1,20 @@
+{
+  "name": "ss14-art-local",
+  "interface": {
+    "displayName": "SS14-Art Local"
+  },
+  "plugins": [
+    {
+      "name": "ss14-art",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ss14-art"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    }
+  ]
+}

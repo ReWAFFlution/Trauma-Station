@@ -1,0 +1,8 @@
+---
+description: SS14-Art core rules
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+Follow `.agents/rules` as canon. Do not edit `RobustToolbox/**`. New Shine code goes under `_Art`. Non-`_Art` edits need `Art-Edit` markers.

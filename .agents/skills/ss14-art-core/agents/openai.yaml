@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14-Art"
+  short_description: "Canonical SS14-Art workflow"
+  default_prompt: "Use $ss14-art before changing SS14-Art code."

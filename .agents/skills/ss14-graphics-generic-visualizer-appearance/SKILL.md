@@ -1,0 +1,23 @@
+---
+name: ss14-graphics-generic-visualizer-appearance
+description: Appearance and GenericVisualizer guidance for {FORK_NAME} SS14 work. Use when adding or reviewing AppearanceComponent data, GenericVisualizer YAML, sprite-layer state changes, dynamic sprites, or old visualizer ports.
+---
+
+# SS14 Appearance Visualizers
+
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
+Prefer data-driven visuals through appearance data and prototype visualizers.
+
+## Workflow
+
+1. Open `references/appearance-data-flow.md`.
+2. Open `references/generic-visualizer-patterns.md`.
+3. Open `references/visual-prototype-anchors.md`.
+
+## Rules
+
+- Keep visual state data explicit and networked when clients need it.
+- Use `AppearanceSystem.SetData` from systems.
+- Keep sprite state names in prototypes/data where possible.
+- Put {FORK_NAME} visuals under `{FORK_DIR}` resource and client paths.
