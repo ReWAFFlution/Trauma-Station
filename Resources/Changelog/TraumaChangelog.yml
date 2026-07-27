@@ -12136,3 +12136,57 @@ Entries:
   id: 1330
   time: '2026-07-27T10:19:45.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/3733
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed every uplink item upstream removed having missing locale strings.
+  - type: Fix
+    message: Fixed gun execution popups.
+  - type: Tweak
+    message: Spiders are now immune to their venom...
+  - type: Add
+    message: Added a durathread cargo order since upstream killed textiles crate.
+  - type: Add
+    message: Automation machines can now be made in a circuit printer.
+  id: 1331
+  time: '2026-07-27T13:38:34.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3751
+- author: Armok
+  changes:
+  - type: Fix
+    message: Spiders can now eat raw meat
+  - type: Tweak
+    message: Baby spiders now walk slowly
+  id: 1332
+  time: '2026-07-27T17:20:43.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3761
+- author: momoyawn
+  changes:
+  - type: Tweak
+    message: Bible healing can now be used to save the critically injured.
+  id: 1333
+  time: '2026-07-27T19:32:25.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3763
+- author: tsarevichvanya
+  changes:
+  - type: Remove
+    message: Removed Corporate Agents
+  - type: Fix
+    message: Non-QM command can no longer roll headrev
+  id: 1334
+  time: '2026-07-27T20:17:59.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3770
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed spiders being able to spam way too many eggs.
+  id: 1335
+  time: '2026-07-27T20:37:53.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3771
+- author: Chubbygummibear
+  changes:
+  - type: Fix
+    message: Directional and rotating lights are once again working as expected.
+  id: 1336
+  time: '2026-07-27T22:44:09.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3779
