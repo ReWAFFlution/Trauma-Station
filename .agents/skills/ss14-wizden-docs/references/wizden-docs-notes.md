@@ -1,6 +1,8 @@
-# WizDen Docs Notes For SS14-ART-CORE Skills
+# WizDen Docs Notes For {FORK_NAME} Skills
 
-These are distilled notes from the local WizDen docs. They are intentionally shorter than the docs and tuned for SS14-ART-CORE code review.
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
+These are distilled notes from the local WizDen docs. They are intentionally shorter than the docs and tuned for {FORK_NAME} code review.
 
 ## Fork Work
 
@@ -12,7 +14,7 @@ These are distilled notes from the local WizDen docs. They are intentionally sho
 - Test DB changes on SQLite and Postgres.
 - Licenses matter for code and assets; check source, commit, author, license, and attribution.
 
-SS14-ART-CORE-specific override: new SS14-ART-CORE code goes under `_Art`; upstream-file edits need `Art-Edit` markers; `RobustToolbox/**` is read-only.
+{FORK_NAME}-specific override: new {FORK_NAME} code goes under `{FORK_DIR}`; upstream-file edits need `{EDIT_MARKER}-Edit` markers; `RobustToolbox/**` is read-only.
 
 ## Code Organization
 
@@ -21,7 +23,7 @@ SS14-ART-CORE-specific override: new SS14-ART-CORE code goes under `_Art`; upstr
 - `Content.Client` is presentation, visualizers, UI, and client-only behavior.
 - Resources include prototypes, maps, textures, audio, localization, guidebook.
 - Organize game code by subsystem, not "misc".
-- Under `_Art`, preserve this organization so future upstream comparison remains easy.
+- Under `{FORK_DIR}`, preserve this organization so future upstream comparison remains easy.
 
 ## ECS
 
@@ -67,7 +69,7 @@ SS14-ART-CORE-specific override: new SS14-ART-CORE code goes under `_Art`; upstr
 - Use Fluent variables instead of concatenation.
 - Use entity grammar helpers where appropriate.
 - Localization IDs are kebab-case and subsystem-scoped.
-- Put SS14-ART-CORE FTL under `Resources/Locale/en-US/_Art`.
+- Put {FORK_NAME} FTL under `Resources/Locale/en-US/{FORK_DIR}`.
 
 ## Prediction And Networking
 

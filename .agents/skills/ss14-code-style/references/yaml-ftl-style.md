@@ -1,5 +1,7 @@
 # YAML FTL Style
 
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
 ## YAML
 
 - Keep SS14 indentation.
@@ -10,4 +12,4 @@
 
 - Use kebab-case.
 - Use variables and entity grammar helpers.
-- Keep SS14-ART-CORE strings under `_Art` locale.
+- Keep fork strings under `{FORK_DIR}` locale (`FORK_DIR` from `.agents/fork-config.md`).

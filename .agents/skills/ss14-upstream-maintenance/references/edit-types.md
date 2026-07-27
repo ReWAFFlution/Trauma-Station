@@ -1,10 +1,12 @@
 # Edit Types
 
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
 ## Safe
 
 - Add a hook call to fork-owned system.
-- Add a prototype include/reference for `_Art` content.
-- Add a localized entry for SS14-ART-CORE-only content.
+- Add a prototype include/reference for `{FORK_DIR}` content.
+- Add a localized entry for {FORK_NAME}-only content.
 
 ## Risky
 
@@ -14,3 +16,5 @@
 - Change network state.
 
 Risky edits need stronger review and validation.
+
+> Fork-specific values (`{FORK_DIR}`, `{FORK_NAME}`, `{EDIT_MARKER}`) defined in `.agents/fork-config.md`.

@@ -1,10 +1,12 @@
 # SS14 Prediction And Networking
 
+> **Config:** Actual fork values (`FORK_DIR`, `EDIT_MARKER`, `FORK_NAME`) are defined in `.agents/fork-config.md`.
+
 Prediction is the default for new interactive gameplay when feasible.
 
 ## Checklist
 
-- Put predicted components and systems in `Content.Shared/_Art`.
+- Put predicted components and systems in `Content.Shared/{FORK_DIR}`.
 - Use `[RegisterComponent, NetworkedComponent, AutoGenerateComponentState]` on shared networked components.
 - Mark changed networked fields with `[AutoNetworkedField]`.
 - Call `Dirty` or `DirtyField` whenever a networked field changes.

@@ -2,7 +2,7 @@
 
 Use `ss14-client-server-shared`, `ss14-ecs-basics`, and `ss14-networking-prediction`.
 
-- Put new Shine shared code under `Content.Shared/_sh`.
+- Put new {FORK_NAME} shared code under `Content.Shared/{FORK_DIR}` (see `.agents/fork-config.md`).
 - Shared code must only depend on shared APIs.
 - Predicted interactive gameplay should live here when possible.
 - Networked shared components need `NetworkedComponent`, component state generation, `AutoNetworkedField`, and correct `Dirty`/`DirtyField`.

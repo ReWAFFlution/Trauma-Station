@@ -1,14 +1,15 @@
 ---
 name: ss14-art-core
-description: Master workflow for working in the SS14-ART-CORE SS14 fork. Use for any code, content, resource, test, review, or agent-instruction change in this repository, especially Content.Shared, Content.Server, Content.Client, Resources, .agents, CodeRabbit, and fork/upstream merge-sensitive work.
+description: Master workflow for working in the {FORK_NAME} SS14 fork. Use for any code, content, resource, test, review, or agent-instruction change in this repository, especially Content.Shared, Content.Server, Content.Client, Resources, .agents, CodeRabbit, and fork/upstream merge-sensitive work.
 ---
 
 # SS14-ART-CORE
 
-This is the root skill for SS14-ART-CORE. Use it first, then load narrower SS14 skills only as needed.
+This is the root skill for {FORK_NAME}. Use it first, then load narrower SS14 skills only as needed.
 
 ## Required Preflight
 
+0. Load `.agents/fork-config.md` to resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}`.
 1. Read `.agents/rules/ss14-art-hard-guardrails.md`.
 2. Read `.agents/rules/ss14-art-upstream-edit-markers.md`.
 3. Read `.agents/rules/ss14-skill-preflight-and-refresh.md`.
@@ -23,13 +24,13 @@ This is the root skill for SS14-ART-CORE. Use it first, then load narrower SS14 
 ## Hard Rules
 
 - Never edit `RobustToolbox/**`.
-- Put new SS14-ART-CORE-only code under `_Art`.
-- Wrap every change outside `_Art` in a narrow marker block:
+- Put new {FORK_NAME}-only code under `{FORK_DIR}`.
+- Wrap every change outside `{FORK_DIR}` in a narrow marker block:
 
 ```csharp
-// Art-Start: reason
+// {EDIT_MARKER}-Start: reason
 CODE
-// Art-End
+// {EDIT_MARKER}-End
 ```
 
 - Keep mechanics modular and data-driven.
@@ -43,7 +44,7 @@ Prefer this order:
 
 1. Understand existing implementation.
 2. Decide whether the change belongs in Shared, Server, Client, Resources, or tests.
-3. Add fork-only code under `_Art`.
+3. Add fork-only code under `{FORK_DIR}`.
 4. Touch upstream files only for integration points and mark them.
 5. Add localization and prototypes with namespaced IDs.
 6. Validate with the narrowest useful command.

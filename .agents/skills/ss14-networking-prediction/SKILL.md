@@ -5,6 +5,8 @@ description: Prediction and networking guidance for SS14 component states, AutoN
 
 # SS14 Networking Prediction
 
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
 ## Default
 
 Make new interactive gameplay predicted when feasible. If prediction is impossible, document why.
@@ -16,7 +18,7 @@ Make new interactive gameplay predicted when feasible. If prediction is impossib
 
 ## Component State
 
-- Shared networked components live in `Content.Shared/_Art`.
+- Shared networked components live in `Content.Shared/{FORK_DIR}`.
 - Use `[NetworkedComponent]` only on shared components.
 - Prefer `[AutoGenerateComponentState]` and `[AutoNetworkedField]`.
 - Dirty every changed networked field.

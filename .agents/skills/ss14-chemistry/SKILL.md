@@ -5,9 +5,11 @@ description: Chemistry guidance for SS14 SS14-ART-CORE work, including reagents,
 
 # SS14 Chemistry
 
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
 ## Rules
 
-- Put new SS14-ART-CORE chemistry prototypes under `Resources/Prototypes/_Art`.
+- Put new SS14-ART-CORE chemistry prototypes under `Resources/Prototypes/{FORK_DIR}`.
 - Keep reagent/reaction/metabolism behavior data-driven.
 - Use existing solution container APIs.
 - Be careful with predicted code that resolves solution entities leaving PVS.

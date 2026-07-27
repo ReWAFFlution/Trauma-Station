@@ -1,5 +1,7 @@
 # Prototype And Resource Naming
 
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
 ## Prototypes
 
 - Use PascalCase IDs.
@@ -9,5 +11,5 @@
 ## Resources
 
 - Keep paths lowercase-ish and subsystem grouped where local patterns do.
-- Keep SS14-ART-CORE files under `_Art`.
+- Keep {FORK_NAME} files under `{FORK_DIR}`.
 - Preserve RSI state names referenced by prototypes.

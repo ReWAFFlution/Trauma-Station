@@ -1,7 +1,9 @@
 # Resources Map
 
-- Entity prototypes: `Resources/Prototypes/_Art`.
-- Locale: `Resources/Locale/en-US/_Art`.
-- Textures: `Resources/Textures/_Art`.
-- Audio: `Resources/Audio/_Art`.
-- Guidebook content: follow existing guidebook layout, prefer `_Art` for SS14-ART-CORE-only entries.
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
+- Entity prototypes: `Resources/Prototypes/{FORK_DIR}`.
+- Locale: `Resources/Locale/en-US/{FORK_DIR}`.
+- Textures: `Resources/Textures/{FORK_DIR}`.
+- Audio: `Resources/Audio/{FORK_DIR}`.
+- Guidebook content: follow existing guidebook layout, prefer `{FORK_DIR}` for {FORK_NAME}-only entries.

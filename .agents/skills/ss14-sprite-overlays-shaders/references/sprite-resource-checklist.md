@@ -1,6 +1,8 @@
 # Sprite Resource Checklist
 
-- New SS14-ART-CORE sprites under `Resources/Textures/_Art`.
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
+- New {FORK_NAME} sprites under `Resources/Textures/{FORK_DIR}`.
 - RSI metadata includes license and copyright.
 - State names match YAML references.
 - JSON formatting is readable.

@@ -5,12 +5,14 @@ description: Placement and dependency rules for SS14 Content.Shared, Content.Ser
 
 # SS14 Client Server Shared
 
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
 ## Placement Decisions
 
-- `Content.Shared/_Art`: predicted gameplay, shared components, network event definitions, shared public APIs, data used by both sides.
-- `Content.Server/_Art`: authority-only logic, persistence, admin/server services, systems impossible to predict.
-- `Content.Client/_Art`: UI, visualizers, overlays, client-only presentation, client BUI windows.
-- `Resources/_Art`: prototypes, maps, audio, textures, localization.
+- `Content.Shared/{FORK_DIR}`: predicted gameplay, shared components, network event definitions, shared public APIs, data used by both sides.
+- `Content.Server/{FORK_DIR}`: authority-only logic, persistence, admin/server services, systems impossible to predict.
+- `Content.Client/{FORK_DIR}`: UI, visualizers, overlays, client-only presentation, client BUI windows.
+- `Resources/{FORK_DIR}`: prototypes, maps, audio, textures, localization.
 - Tests go in `Content.Tests` or `Content.IntegrationTests` based on scope.
 
 ## Dependency Direction
@@ -34,6 +36,10 @@ When a system needs side-specific code:
 - Inherit from it on server and client.
 - Add an empty client system if needed so shared predicted logic runs client-side.
 
+## Fork Config
+
+`FORK_DIR={FORK_DIR}`, `EDIT_MARKER={EDIT_MARKER}`, `FORK_NAME={FORK_NAME}` — from `.agents/fork-config.md`. Use these values in paths, markers, and references.
+
 ## Upstream Files
 
-Touch non-`_Art` files only for integration points and mark those edits.
+Touch non-`{FORK_DIR}` files only for integration points and mark those edits.

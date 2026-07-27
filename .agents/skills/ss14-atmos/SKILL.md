@@ -5,10 +5,12 @@ description: Atmospherics guidance for SS14 SS14-ART-CORE work, including gas si
 
 # SS14 Atmos
 
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
 ## Placement
 
-- Most atmos simulation is server-authoritative and belongs in `Content.Server/_Art`.
-- Shared data/events may live in `Content.Shared/_Art` when UI, prediction-adjacent data, or prototypes need it.
+- Most atmos simulation is server-authoritative and belongs in `Content.Server/{FORK_DIR}`.
+- Shared data/events may live in `Content.Shared/{FORK_DIR}` when UI, prediction-adjacent data, or prototypes need it.
 - Client code is presentation only.
 
 ## Rules

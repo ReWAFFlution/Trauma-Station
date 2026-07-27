@@ -1,5 +1,7 @@
 # Feature Checklist
 
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
 Before implementation:
 
 - Search for existing mechanics and APIs.
@@ -11,6 +13,8 @@ Before implementation:
 
 Before final:
 
-- Check `_Art` placement.
-- Check marker blocks for non-`_Art` edits.
+- Check `{FORK_DIR}` placement.
+- Check marker blocks for non-`{FORK_DIR}` edits.
 - Check no duplicate mechanic was introduced.
+
+> Fork-specific values (`{FORK_DIR}`, `{FORK_NAME}`, `{EDIT_MARKER}`) defined in `.agents/fork-config.md`.

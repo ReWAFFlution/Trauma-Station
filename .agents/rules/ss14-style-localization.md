@@ -1,5 +1,7 @@
 # SS14 Style And Localization
 
+> **Config:** Actual fork values (`FORK_DIR`, `EDIT_MARKER`, `FORK_NAME`) are defined in `.agents/fork-config.md`.
+
 ## C# Style
 
 - Use file-scoped namespaces.
@@ -30,7 +32,7 @@
 - Use kebab-case localization IDs, scoped by subsystem.
 - Prefer `Loc.GetString(id, ("arg", value))` over concatenation.
 - Use Fluent entity helpers such as `THE`, `INDEFINITE`, `SUBJECT`, `OBJECT`, `POSS-ADJ`, and conjugation helpers when sentence grammar depends on entities.
-- Put SS14-ART-CORE FTL under `Resources/Locale/en-US/_Art/...`.
+- Put {FORK_NAME} FTL under `Resources/Locale/en-US/{FORK_DIR}/...`.
 
 ## YAML
 

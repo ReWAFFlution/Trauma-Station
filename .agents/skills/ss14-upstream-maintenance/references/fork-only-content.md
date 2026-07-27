@@ -1,12 +1,16 @@
 # Fork Only Content
 
-New SS14-ART-CORE code/resources belong under `_Art`.
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
+New {FORK_NAME} code/resources belong under `{FORK_DIR}`.
 
 Examples:
 
-- `Content.Shared/_Art/Feature/...`
-- `Content.Server/_Art/Feature/...`
-- `Content.Client/_Art/Feature/...`
-- `Resources/Prototypes/_Art/Feature/...`
+- `Content.Shared/{FORK_DIR}/Feature/...`
+- `Content.Server/{FORK_DIR}/Feature/...`
+- `Content.Client/{FORK_DIR}/Feature/...`
+- `Resources/Prototypes/{FORK_DIR}/Feature/...`
 
-Do not place new SS14-ART-CORE mechanics in upstream folders for convenience.
+Do not place new {FORK_NAME} mechanics in upstream folders for convenience.
+
+> Fork-specific values (`{FORK_DIR}`, `{FORK_NAME}`, `{EDIT_MARKER}`) defined in `.agents/fork-config.md`.

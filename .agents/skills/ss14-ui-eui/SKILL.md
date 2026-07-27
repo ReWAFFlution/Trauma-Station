@@ -1,9 +1,11 @@
 ---
 name: ss14-ui-eui
-description: EUI guidance for SS14 SS14-ART-CORE work. Use for admin/server-driven external UI flows, EUI messages, permission checks, server validation, and deciding when EUI is more appropriate than BUI or regular XAML UI.
+description: EUI guidance for SS14 {FORK_NAME} work. Use for admin/server-driven external UI flows, EUI messages, permission checks, server validation, and deciding when EUI is more appropriate than BUI or regular XAML UI.
 ---
 
 # SS14 UI EUI
+
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
 
 ## Use EUI When
 
@@ -17,7 +19,7 @@ description: EUI guidance for SS14 SS14-ART-CORE work. Use for admin/server-driv
 - Keep state minimal and explicit.
 - Localize visible strings.
 - Avoid using EUI for normal entity-bound gameplay; use BUI for that.
-- Keep client presentation in `Content.Client/_Art` and authority in `Content.Server/_Art`.
+- Keep client presentation in `Content.Client/{FORK_DIR}` and authority in `Content.Server/{FORK_DIR}`.
 
 ## Review
 

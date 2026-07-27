@@ -5,11 +5,13 @@ description: SS14 YAML prototype, data field, localization, guidebook, entity ta
 
 # SS14 Prototype Basics
 
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
 ## Placement
 
-- New SS14-ART-CORE prototypes go in `Resources/Prototypes/_Art/<Subsystem>/`.
-- New SS14-ART-CORE FTL goes in `Resources/Locale/en-US/_Art/<Subsystem>/`.
-- Do not mix SS14-ART-CORE prototypes into upstream files unless integration requires it; then use `Art-Edit` markers.
+- New {FORK_NAME} prototypes go in `Resources/Prototypes/{FORK_DIR}/<Subsystem>/`.
+- New {FORK_NAME} FTL goes in `Resources/Locale/en-US/{FORK_DIR}/<Subsystem>/`.
+- Do not mix {FORK_NAME} prototypes into upstream files unless integration requires it; then use `{EDIT_MARKER}-Edit` markers.
 
 ## Bundled References
 

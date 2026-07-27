@@ -1,11 +1,13 @@
 # SS14 Localization Required
 
+> **Config:** Actual fork values (`FORK_DIR`, `EDIT_MARKER`, `FORK_NAME`) are defined in `.agents/fork-config.md`.
+
 Treat localization as mandatory work for gameplay, UI, admin-facing, and prototype-backed player text.
 
 ## Required
 
 - Localize every player-facing string.
-- Add or update FTL in `Resources/Locale/en-US/_Art` for SS14-ART-CORE-specific text.
+- Add or update FTL in `Resources/Locale/en-US/{FORK_DIR}` for {FORK_NAME}-specific text.
 - Use feature-scoped `kebab-case` keys.
 - Store reusable localization keys in data as `LocId` when local patterns support it.
 

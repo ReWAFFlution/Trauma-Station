@@ -1,9 +1,11 @@
 ---
 name: ss14-ui-xaml
-description: XAML UI guidance for SS14 SS14-ART-CORE work, including Robust UI controls, styles, containers, UI controllers, responsive layout, localization, and avoiding C#-only UI when XAML is appropriate.
+description: XAML UI guidance for SS14 {FORK_NAME} work, including Robust UI controls, styles, containers, UI controllers, responsive layout, localization, and avoiding C#-only UI when XAML is appropriate.
 ---
 
 # SS14 UI XAML
+
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
 
 ## Rules
 
@@ -16,9 +18,9 @@ description: XAML UI guidance for SS14 SS14-ART-CORE work, including Robust UI c
 
 ## Placement
 
-- XAML and client code go under `Content.Client/_Art`.
-- Shared messages/state go under `Content.Shared/_Art`.
-- FTL goes under `Resources/Locale/en-US/_Art`.
+- XAML and client code go under `Content.Client/{FORK_DIR}`.
+- Shared messages/state go under `Content.Shared/{FORK_DIR}`.
+- FTL goes under `Resources/Locale/en-US/{FORK_DIR}`.
 
 ## Bundled References
 

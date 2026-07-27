@@ -1,5 +1,7 @@
 # Localization In Code
 
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
 Use:
 
 ```csharp
@@ -13,4 +15,4 @@ Avoid:
 - comparing localized output;
 - showing raw IDs to players.
 
-Put matching FTL under `Resources/Locale/en-US/_Art`.
+Put matching FTL under `Resources/Locale/en-US/{FORK_DIR}`.

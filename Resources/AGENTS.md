@@ -2,9 +2,9 @@
 
 Use `ss14-prototype-basics`, `ss14-code-style`, and relevant domain skills.
 
-- Put new Shine prototypes under `Resources/Prototypes/_sh`.
-- Put new Shine localization under `Resources/Locale/en-US/_sh`.
-- Put new Shine textures/audio under `Resources/Textures/_sh` and `Resources/Audio/_sh`.
+- Put new {FORK_NAME} prototypes under `Resources/Prototypes/{FORK_DIR}` (see `.agents/fork-config.md`).
+- Put new {FORK_NAME} localization under `Resources/Locale/en-US/{FORK_DIR}`.
+- Put new {FORK_NAME} textures/audio under `Resources/Textures/{FORK_DIR}` and `Resources/Audio/{FORK_DIR}`.
 - Localize every player-facing string.
 - Follow SS14 YAML indentation, prototype ordering, RSI metadata, and attribution rules.
-- If an upstream resource file must be changed, wrap the exact diff in native Art-Start / Art-End comments.
+- If an upstream resource file must be changed, wrap the exact diff in native {EDIT_MARKER}-Start / {EDIT_MARKER}-End comments.

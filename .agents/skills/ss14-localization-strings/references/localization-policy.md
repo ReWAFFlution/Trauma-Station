@@ -1,5 +1,7 @@
 # Localization Policy
 
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
 Every player-facing string must have FTL.
 
 This includes:
@@ -12,4 +14,4 @@ This includes:
 - reagent and marking names;
 - guidebook text.
 
-SS14-ART-CORE-specific strings live under `Resources/Locale/en-US/_Art`.
+{FORK_NAME}-specific strings live under `Resources/Locale/en-US/{FORK_DIR}`.

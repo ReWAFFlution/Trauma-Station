@@ -11,9 +11,11 @@ Use this rule for YAML prototypes and serialized component data.
 
 ## SS14-ART-CORE Placement
 
-- New prototypes: `Resources/Prototypes/_Art/<Subsystem>/`.
-- New locale: `Resources/Locale/en-US/_Art/<Subsystem>/`.
-- New textures/audio: `Resources/Textures/_Art` and `Resources/Audio/_Art`.
+> **Config:** Actual fork directory (`FORK_DIR`) is defined in `.agents/fork-config.md`.
+
+- New prototypes: `Resources/Prototypes/{FORK_DIR}/<Subsystem>/`.
+- New locale: `Resources/Locale/en-US/{FORK_DIR}/<Subsystem>/`.
+- New textures/audio: `Resources/Textures/{FORK_DIR}` and `Resources/Audio/{FORK_DIR}`.
 
 ## IDs
 

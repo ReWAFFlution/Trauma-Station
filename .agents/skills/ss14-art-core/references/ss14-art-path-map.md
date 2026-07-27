@@ -1,11 +1,13 @@
 # SS14-ART-CORE Path Map
 
-- Shared code: `Content.Shared/_Art`.
-- Server code: `Content.Server/_Art`.
-- Client code: `Content.Client/_Art`.
-- Prototypes: `Resources/Prototypes/_Art`.
-- Locale: `Resources/Locale/en-US/_Art`.
-- Textures: `Resources/Textures/_Art`.
-- Audio: `Resources/Audio/_Art`.
+> **Note:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md` before using this map.
 
-Touch non-`_Art` files only for narrow integration and marker blocks.
+- Shared code: `Content.Shared/{FORK_DIR}`.
+- Server code: `Content.Server/{FORK_DIR}`.
+- Client code: `Content.Client/{FORK_DIR}`.
+- Prototypes: `Resources/Prototypes/{FORK_DIR}`.
+- Locale: `Resources/Locale/en-US/{FORK_DIR}`.
+- Textures: `Resources/Textures/{FORK_DIR}`.
+- Audio: `Resources/Audio/{FORK_DIR}`.
+
+Touch non-`{FORK_DIR}` files only for narrow integration and marker blocks.

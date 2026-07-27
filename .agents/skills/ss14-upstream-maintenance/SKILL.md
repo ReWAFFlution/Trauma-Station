@@ -1,11 +1,13 @@
 ---
 name: ss14-upstream-maintenance
-description: Upstream/fork maintenance guidance for SS14-ART-CORE. Use when touching non-_Art files, reviewing upstream diffs, preserving path similarity, porting fork code, marking Art-Edit blocks, or deciding whether an engine/content change is allowed.
+description: Upstream/fork maintenance guidance for {FORK_NAME}. Use when touching non-{FORK_DIR} files, reviewing upstream diffs, preserving path similarity, porting fork code, marking {EDIT_MARKER}-Edit blocks, or deciding whether an engine/content change is allowed.
 ---
 
 # SS14 Upstream Maintenance
 
-This skill protects SS14-ART-CORE from painful upstream merges.
+> **Config:** Resolve `{FORK_DIR}`, `{EDIT_MARKER}`, `{FORK_NAME}` from `.agents/fork-config.md`.
+
+This skill protects {FORK_NAME} from painful upstream merges.
 
 ## Workflow
 
@@ -17,8 +19,8 @@ This skill protects SS14-ART-CORE from painful upstream merges.
 ## Rules
 
 - Never edit `RobustToolbox`.
-- Prefer `_Art` fork-owned files.
-- Mark every non-`_Art` change with narrow `Art-Edit` blocks.
+- Prefer `{FORK_DIR}` fork-owned files.
+- Mark every non-`{FORK_DIR}` change with narrow `{EDIT_MARKER}-Edit` blocks.
 - Keep upstream diffs small and intentional.
 - Preserve upstream path similarity for ports so future merges and blame remain readable.
 - Do not use conflict-avoidance hacks to hide meaningful upstream behavior changes.
@@ -28,7 +30,9 @@ This skill protects SS14-ART-CORE from painful upstream merges.
 Use native comments and keep the block as small as possible:
 
 ```csharp
-// Art-Start: reason
+// {EDIT_MARKER}-Start: reason
 CODE
-// Art-End
+// {EDIT_MARKER}-End
 ```
+
+> Fork-specific values (`{FORK_DIR}`, `{FORK_NAME}`, `{EDIT_MARKER}`) defined in `.agents/fork-config.md`.

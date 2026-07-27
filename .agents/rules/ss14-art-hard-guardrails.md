@@ -1,11 +1,13 @@
 # SS14-ART-CORE Hard Guardrails
 
-These rules are non-negotiable for SS14-ART-CORE work.
+> **Config:** Actual fork values (`FORK_DIR`, `EDIT_MARKER`, `FORK_NAME`) are defined in `.agents/fork-config.md`.
+
+These rules are non-negotiable for {FORK_NAME} work.
 
 ## Absolute Rules
 
 - Do not edit `RobustToolbox/**`. Read it for context only. If an engine change seems required, stop and explain the required escalation.
-- New SS14-ART-CORE-only code goes under a path segment named `_Art` unless a maintainer explicitly chooses a different fork-owned directory.
+- New {FORK_NAME}-only code goes under a path segment named `{FORK_DIR}` unless a maintainer explicitly chooses a different fork-owned directory.
 - Do not add new mechanics by duplicating existing mechanics. Search first, extend or compose existing systems, and make the feature configurable through components, prototypes, CVars, or data definitions.
 - Do not hardcode prototype IDs, localization IDs, magic numbers, sound paths, sprite paths, or department/job names when a typed ID, `ProtoId<T>`, `SoundSpecifier`, `SpriteSpecifier`, CVar, data field, or prototype relation can express it.
 - Do not write "temporary" code, reflection hacks, static global state, one-off update loops, or server-only shortcuts for predicted gameplay.
